@@ -1,0 +1,14 @@
+body {
+  overflow-x: hidden;
+}
+#header {
+    color: transparent;
+}
+
+#bg-image {
+    height: 100%;
+    background-image: url(images/summer-2880261_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

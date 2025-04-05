@@ -1,0 +1,163 @@
+body {
+  overflow-x: hidden;
+}
+
+.bi-facebook:hover {
+    color: blue !important;
+}
+
+.card-title {
+    font-family: "lora", serif;
+  }
+  .middle {
+    font-family: cursive;
+    font-style: italic;
+  }
+  #btn {
+    position: absolute;
+    top: 80vh;
+    left: 47.5vw;
+  }
+ @media screen and (max-width: 420px){
+  #btn{
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+  }
+}
+  #btn:hover {
+    transform: translateY(10px) scale(1.2);
+  }
+  .h-fit {
+    animation: text 3s 0.4s ;
+  }
+  @keyframes text {
+    from {transform: translateY(50px);}
+    to {transform: translateY(0);}
+  }
+  /* #r2 {
+    background-image: url(images/r2.jpg);
+  }
+  #r-2-middle {
+    background-image: url(images/r-2-middle.jpg);
+  }
+  #r-2 {
+    background-image: url(images/r-2.jpg);
+  } */
+.anime-1 {
+    background-image: url(images/g-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 300px;
+}
+.anime-2 {
+    background-image: url(images/g-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 300px;
+}
+.anime-3 {
+    background-image: url(images/g-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 300px;
+}
+.first-col h1, .second-col h1, .third-col h1 {
+    height: 100%;
+}
+h1{
+    height: 100%;
+}
+.features h1:hover{
+    border: 6px solid white;
+}
+#section3 {
+    background-image: url(images/resort-3.jpg);
+    filter: blur(0.4px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+#section3-btn {
+  margin-left: 35%;
+  margin-top: 50px;
+  transform: scale(1.3);
+  border-radius: 0 !important;
+}
+ #containers {
+  margin-right: -150px;
+} 
+#img-1{
+  background-image: url(images/c-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+#img-2{
+  background-image: url(images/c-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+#img-3{
+  background-image: url(images/c-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+#img-4{
+  background-image: url(images/c-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+#img-5{
+  background-image: url(images/c-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+#img-6{
+  background-image: url(images/footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+}
+    /* .form {
+    background-image: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(0.4px);
+    height: 100vh;
+    margin: 130px 0 50px 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    } */
+#section4-btn {
+  border-radius: 0 !important;
+}
+footer {
+  background-image: url(images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#transparent {
+  background-color: transparent;
+  position: absolute;
+  z-index: 999;
+}
+
+
